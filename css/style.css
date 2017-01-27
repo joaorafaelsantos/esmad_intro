@@ -1,0 +1,28 @@
+html,
+body {
+    background-color: white;
+}
+
+svg {
+    width: 1500px;
+    height: 800px;
+    display: block;
+    margin: auto;
+}
+
+@font-face {
+    font-family: PortoSans;
+    src: url('../fonts/PortoSans-Light.otf');
+}
+
+@font-face {
+    font-family: PortoSansStencil;
+    src: url('../fonts/PortoSansStencil-Light.otf');
+}
+
+@font-face {
+    font-family: PortoSansStencil;
+    font-weight: bold;
+    src: url('../fonts/PortoSansStencil-Regular.otf');
+}
+

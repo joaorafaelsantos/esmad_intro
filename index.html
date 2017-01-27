@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Escola Superior de Media Artes e Design</title>
+	<link rel="shortcut icon" type="image/x-icon" href="https://www.ipp.pt/favicon.ico" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="script/script.js"></script>
+</head>
+
+<body>
+	<audio autoplay>
+  <source src="musica/intro_pporto.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>
+	<svg id="mySVG">
+		<rect x="365" y="200" width="800" height="200" rx="20" ry="20">
+			<animate id="anim1" attributeName="fill" values="rgb(234, 159, 134); rgb(222, 111, 73); rgb(201, 77, 36); rgb(201, 77, 36)"
+							begin="0s" dur="1s" fill="freeze" />
+			<animate id="anim1_1" attributeName="fill" values="rgb(201, 77, 36); rgb(222, 111, 73); rgb(234, 159, 134); white"
+							begin="anim4.end + 7s" dur="1s" fill="freeze" />
+		</rect>
+		<text x="375" y="370" fill="transparent" font-family="PortoSansStencil" font-size="200">P
+			<animate id="anim2" attributeName="fill" values="rgb(234, 159, 134); white" begin="1s" dur="2s" fill="freeze" />
+			<animate id="anim2_1" attributeName="fill" values="rgb(234, 159, 134); white;" begin="anim4.end + 7s" dur="1s"
+							fill="freeze" />
+		</text>
+		<text x="475" y="370" fill="transparent" font-family="PortoSansStencil" font-size="200" font-weight="bold">. PORTO
+			<animate id="anim3" attributeName="fill" values="rgb(222, 111, 73); rgb(234, 159, 134); white" begin="2s" dur="2s" fill="freeze"
+			/>
+			<animate id="anim3_1" attributeName="fill" values="rgb(234, 159, 134); white;" begin="anim4.end + 7s" dur="1s"
+							fill="freeze" />
+		</text>
+		<text x="450" y="450" fill="transparent" font-family="PortoSansStencil" font-size="40">Escola Superior de Media Artes e Design
+			<animate id="anim4" attributeName="fill" values="white; rgb(227, 228, 230); rgb(215, 216, 217); rgb(188, 190, 192);" begin="4s" dur="2s" fill="freeze" />
+			<animate id="anim4_1" attributeName="fill" values="rgb(215, 216, 217); white;" begin="anim4.end + 7s" dur="1s"
+							fill="freeze" />
+		</text>
+		</text>
+		<rect x="680" y="487" width="2" height="50" fill="transparent">
+			<animate id="anim5" attributeName="fill" values="rgb(188, 190, 192); black" begin="anim4.end" dur="1s" fill="freeze" />
+			<animate id="anim5_1" attributeName="fill" values="rgb(188, 190, 192); transparent" begin="anim9.end + 1s" dur="1s" fill="freeze" />
+		</rect>
+		<text x="690" y="525" fill="transparent" font-family="PortoSansStencil" font-size="40">Design
+			<animate id="anim6" attributeName="fill" values="rgb(201, 77, 36); transparent" begin="anim4.end" dur="1s" fill="freeze" />
+		</text>
+		<text x="690" y="525" fill="transparent" font-family="PortoSansStencil" font-size="40">Cinema
+			<animate id="anim7" attributeName="fill" values="rgb(201, 77, 36); transparent" begin="anim6.end" dur="1s" fill="freeze" />
+		</text>
+		<text x="690" y="525" fill="transparent" font-family="PortoSansStencil" font-size="40">Fotografia
+			<animate id="anim8" attributeName="fill" values="rgb(201, 77, 36); transparent" begin="anim7.end" dur="1s" fill="freeze" />
+		</text>
+		<text x="690" y="525" fill="transparent" font-family="PortoSansStencil" font-size="40">Multimédia
+			<animate id="anim9" attributeName="fill" values="rgb(201, 77, 36); transparent" begin="anim8.end" dur="1s" fill="freeze" />
+		</text>
+		<text x="690" y="525" fill="transparent" font-family="PortoSansStencil" font-size="40">Web
+			<animate id="anim10" attributeName="fill" values="rgb(201, 77, 36); transparent" begin="anim9.end" dur="2s" fill="freeze" />
+		</text>
+	</svg>
+
+</body>
+
+</html>
