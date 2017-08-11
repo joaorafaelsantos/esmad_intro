@@ -1,3 +1,3 @@
 # Animation for ESMAD website 
-# Degree of Web Information Systems and Technologies / Final grade: 19/20
+# Web Information Systems and Technologies / School of Media Arts and Design (P.PORTO)
 # Link: https://joaorafaelsantos.github.io/esmad_intro/
